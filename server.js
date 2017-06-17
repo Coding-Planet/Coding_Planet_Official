@@ -7,7 +7,7 @@ const fs = require('fs');
 
 
 const app = express();
-
+//process.env.NODE_ENV = 'production';
 app.set('port',4000);
 
 // Express only serves static assets in production

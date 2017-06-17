@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header,Card,Grid,Divider } from 'semantic-ui-react'
 
-import Sort from './Sort';
-    <Image src='https://pbs.twimg.com/profile_images/794993148925722624/mtfN9pFx.jpg' style={{width:'200px',marginLeft:'auto',marginRight:'auto'}} />
+    // <Image src='https://pbs.twimg.com/profile_images/794993148925722624/mtfN9pFx.jpg' style={{width:'200px',marginLeft:'auto',marginRight:'auto'}} />
 
 const  interviewTemplate= () => (
   <Card style={{width:'100%',marginLeft:'auto',marginRight:'auto'}}>
@@ -65,7 +64,7 @@ class Interview extends Component {
     return (
           <div>
             
-          <Sort/>
+        
           <Grid centered >
               <Grid.Row>
                   <Grid.Column textAlign="center" mobile="14" tablet="14" computer="14"  >
